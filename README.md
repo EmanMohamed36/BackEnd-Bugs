@@ -23,10 +23,21 @@
   
       
       when you set the "type" attribute to "module" in your package. json file:
-  #### but the file extension when importing
-  #### ex:
-  #### import {sum} from './another-file'  "wrong"
-  #### import {sum} from './another-file'  "right"
+  ### Issue:
+  The file extension is required when importing.
+  
+  ### Solution:
+  Use the correct file extension when importing.
+  
+  #### Incorrect:
+  ```javascript
+  import { sum } from './another-file';
+  ```
+  
+  #### Correct:
+  ```javascript
+  import { sum } from './another-file.js';
+  ```
   
 </details>
 
@@ -41,28 +52,14 @@
 
   </summary>
   
-  - ### IN WINDOWS:
-    ```
-    Press the Windows + R    
-    ```
-    ```
-    Type services.msc and hit Enter
-    ```
-    ```
-    Search MongoDB.exe. Right click on it and select Start
-    ```
-- ### IN UBUNTU:
+  ### Windows:
+  - Press the Windows + R
+  - Type `services.msc` and hit Enter
+  - Search `MongoDB.exe`, right-click on it, and select Start
 
-  - Make Sure Your Mongod is run Successfully:
-    ```bash
-    Mongod
-    ```
-  - Start Mongod And Make it Active
-
-    ```bash
-    sudo systemctl start mongod
-    ```
-
+  ### Ubuntu:
+  - Make sure `mongod` is running successfully: `mongod`
+  - Start `mongod` and make it active: `sudo systemctl start mongod`
 </details>
 
 <details>
@@ -70,7 +67,10 @@
     IN UBUNTU : White Board in Mongodb Compass
     </summary>
     
-#### The Problem in Mongodb Compass Version 
+### Issue:
+  The problem is with the MongoDB Compass version.
+
+### Solution: 
 ``````bash
 wget https://downloads.mongodb.com/compass/mongodb-compass_1.39.3_amd64.deb
 ``````
@@ -88,5 +88,6 @@ mongodb-compass
 ## Unanswered Bugs:
 
 ## Contribution :
+
 - ### If You Have a Bug 🪲 :- Make new Issue And We Will Response It
 - ### If You Have an answer for Unanswered Bug :-  Make Pull Request To View And Push Your Solve  💪
