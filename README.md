@@ -13,19 +13,19 @@
   
 
 ## Node.js Bugs:
-<details>
-    <summary>
-    Error [ERR_MODULE_NOT_FOUND]: Cannot find module in JS
-    </summary>
-
-    
-    when you set the "type" attribute to "module" in your package. json file:
-#### but the file extension when importing
-#### ex:
-#### import {sum} from './another-file'  "wrong"
-#### import {sum} from './another-file'  "right"
-
-</details>
+  <details>
+      <summary>
+      Error [ERR_MODULE_NOT_FOUND]: Cannot find module in JS
+      </summary>
+  
+      
+      when you set the "type" attribute to "module" in your package. json file:
+  #### but the file extension when importing
+  #### ex:
+  #### import {sum} from './another-file'  "wrong"
+  #### import {sum} from './another-file'  "right"
+  
+  </details>
 
 ## Mongod And Mongodb Compase Bugs:
 
