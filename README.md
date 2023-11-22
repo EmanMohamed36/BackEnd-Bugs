@@ -1,4 +1,4 @@
-# BackEnd-Bugs
+# BackEnd-Bugs🪲
 
 
 ## Table Of Content:
@@ -9,11 +9,14 @@
 
 - ### [Postman](#postman-bugs)
 
-- ### [Contribution](#contribution)
+- ### [Unanswered Bugs](#unanswered-bugs) ☹️
+
+- ### [Contribution](#contribution) 🤗
+
   
 
 ## Node.js Bugs:
-  <details>
+<details>
       <summary>
       Error [ERR_MODULE_NOT_FOUND]: Cannot find module in JS
       </summary>
@@ -25,7 +28,7 @@
   #### import {sum} from './another-file'  "wrong"
   #### import {sum} from './another-file'  "right"
   
-  </details>
+</details>
 
 ## Mongod And Mongodb Compase Bugs:
 
@@ -82,6 +85,8 @@ mongodb-compass
 
 ## Postman Bugs:
 
+## Unanswered Bugs:
+
 ## Contribution :
-
-
+- ### If You Have a Bug 🪲 :- Make new Issue And We Will Response It
+- ### If You Have an answer for Unanswered Bug :-  Make Pull Request To View And Push Your Solve  💪
