@@ -1,6 +1,5 @@
 # BackEnd-Bugs🪲
 
-
 ## Table Of Content:
 
 - ### [Node.js](#nodejs-bugs)
@@ -11,11 +10,10 @@
 
 - ### [Unanswered Bugs](#unanswered-bugs) ☹️
 
-- ### [Contribution](#contribution--1) 🤗
-
-  
+- ### [Contribution](#contribution) 🤗
 
 ## Node.js Bugs:
+
 <details>
       <summary>
       Error [ERR_MODULE_NOT_FOUND]: Cannot find module in JS
@@ -40,6 +38,7 @@
   ```
   
 </details>
+  
 
 ## Mongod And Mongodb Compase Bugs:
 
@@ -57,9 +56,13 @@
   - Type `services.msc` and hit Enter
   - Search `MongoDB.exe`, right-click on it, and select Start
 
-  ### Ubuntu:
-  - Make sure `mongod` is running successfully: `mongod`
-  - Start `mongod` and make it active: `sudo systemctl start mongod`
+### Ubuntu:
+
+- Make sure `mongod` is running successfully: `mongod`
+- Start `mongod` and make it active:
+```bash
+sudo systemctl start mongod
+````
 </details>
 
 <details>
@@ -70,18 +73,48 @@
 ### Issue:
   The problem is with the MongoDB Compass version.
 
-### Solution: 
-``````bash
+### Solution:
+
+```bash
 wget https://downloads.mongodb.com/compass/mongodb-compass_1.39.3_amd64.deb
-``````
-``````bash
+```
+
+```bash
 sudo dpkg -i mongodb-compass_1.39.3_amd64.deb
-``````
-``````bash
+```
+
+```bash
 mongodb-compass
-``````
+```
 
 </details>
+<details>
+  <summary>
+  IN UBUNTU: When Using Transaction Operation And Not run
+    
+  ![WhatsApp Image 2023-11-21 at 6 30 51 PM (1)](https://github.com/EmanMohamed36/BackEnd-Bugs/assets/74449080/b41d5cc0-4f09-496a-ad4a-10dbdbe08ab9)
+
+
+  
+  </summary>
+
+### Solution:
+
+  ```bash
+  sudo apt-get install libkrb5-dev  
+  ```
+  ```bash
+  npm install run-rs -g
+  ```
+  ```bash
+  sudo systemctl stop mongod
+  ```
+  ```bash
+  run-rs -v 4.0.0 --shell
+  ```
+
+</details>
+
 
 ## Postman Bugs:
 
@@ -90,4 +123,4 @@ mongodb-compass
 ## Contribution :
 
 - ### If You Have a Bug 🪲 :- Make new Issue And We Will Response It
-- ### If You Have an answer for Unanswered Bug :-  Make Pull Request To View And Push Your Solve  💪
+- ### If You Have an answer for Unanswered Bug :- Make Pull Request To View And Push Your Solve 💪
