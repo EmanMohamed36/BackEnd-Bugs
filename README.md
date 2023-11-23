@@ -4,7 +4,7 @@
 
 - ### [Node.js](#nodejs-bugs)
 
-- ### [Mongod And Mongodb Compase Bugs](#mongod-and-mongodb-compase-bugs)
+- ### [Mongod And Mongodb Compass Bugs](#mongod-and-mongodb-compass-bugs)
 
 - ### [Postman](#postman-bugs)
 
@@ -40,7 +40,7 @@
 </details>
   
 
-## Mongod And Mongodb Compase Bugs:
+## Mongod And Mongodb Compass Bugs:
 
 <details>
   
