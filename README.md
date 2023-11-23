@@ -10,7 +10,7 @@
 
 - ### [Unanswered Bugs](#unanswered-bugs) ☹️
 
-- ### [Contribution](#contribution) 🤗
+- ### [Contribution](#contribution--1) 🤗
 
 ## Node.js Bugs:
 
